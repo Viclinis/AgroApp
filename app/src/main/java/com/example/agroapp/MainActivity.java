@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void registroUsuario(View view){
-        Intent cambio = new Intent(this, FormularioRegistro.class);
+        //Intent cambio = new Intent(this, FormularioRegistro.class);
+        Intent cambio = new Intent(this, Vendedor.class);
         startActivity(cambio);
     }
 }

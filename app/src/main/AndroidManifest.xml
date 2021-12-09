@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".pago.MedioPAgo"
+            android:exported="false" />
+        <activity
+            android:name=".Comprador"
+            android:exported="false" />
+        <activity
+            android:name=".COMPRAS.formularioCompras"
+            android:exported="false" />
+        <activity
+            android:name=".ventas.formularioVentas"
+            android:exported="false" />
+        <activity
             android:name=".Vendedor"
             android:exported="false" />
         <activity
